@@ -11,7 +11,6 @@ export const Navbar = () => {
         })
     }
 
-
     return (
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark p-2">
             
@@ -46,12 +45,7 @@ export const Navbar = () => {
                         Search
                     </NavLink>
 
-                    <NavLink 
-                        className= { ({isActive}) => `nav-item nav-link ${ isActive ? 'active' : ""}` }
-                        to="/heroes"
-                    >
-                        Heroe
-                    </NavLink>
+                    
                 </div>
             </div>
 
